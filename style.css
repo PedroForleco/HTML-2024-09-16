@@ -1,0 +1,55 @@
+body{
+    font-family: Arial;
+}
+
+nav{
+ background-color: 	#FF4500;
+ padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+   margin: 0 15px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: darkorange;
+
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    background-color: darkorange;
+    border: 1px solid #FF4500;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 30%;
+}
+
+.card img{
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
